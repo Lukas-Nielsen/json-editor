@@ -1,0 +1,10 @@
+.main {
+	@mixin larger-than $mantine-breakpoint-md {
+		max-width: 50vw;
+		width: 50vw;
+	}
+	@mixin smaller-than $mantine-breakpoint-md {
+		max-width: 96vw;
+		width: 96vw;
+	}
+}
